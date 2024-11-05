@@ -15,8 +15,7 @@ html {
 
     margin: 4px;
     border: 1px solid #000;
-    max-width: 150px;
-    min-height: 20px;
+    max-width: 250px;
     max-height: 250px;
 
     label {

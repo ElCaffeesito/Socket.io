@@ -22,11 +22,13 @@ document.getElementById('trigger').addEventListener('click', () => {
     message.classList.add("right");
     document.getElementById('messages').appendChild(message)
 
-    socket.emit('sendNewMessage', {
-        user: user,
-        message: msg,
-        room: roomId
-    })
+    if(msg !== '') {
+        socket.emit('sendNewMessage', {
+            user: user,
+            message: msg,
+            room: roomId
+        })
+    }
 })
 
 socket.on('messageRecieved', (data) => {

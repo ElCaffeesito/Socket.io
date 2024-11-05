@@ -4,10 +4,6 @@ import path from 'path'
 const router = Router();
 
 router.get('', (req, res) => {
-    res.send('api works!');
-})
-
-router.get('/home', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'home.html'));
 
 })
