@@ -1,19 +1,19 @@
 # Tarea sockets
 
-Para instalar todas las dependencias utiliza el siguiente comando
+Para instalar todas las dependencias utiliza el siguiente comando:
+
+`npm i`
+
+Para poder ejecutar todo en modo dev:
 
 `npm run dev`
 
-### Para la primer tarea es dentro de la carpeta **TypeScript**
+Para buildear el proyecto utilizar:
 
-Esta tarea consiste en entrar al [este enlace](http://localhost:3000)
-colocando la ruta de "/usuarios", con esto te mandará a forbidden porque falta el rol deseado.
+`npm run build`
 
-Para poder acceder a la tarea, es necesario colocar alguno de los roles (admin o gerente), con el query param de role
+Y para ejecutar el proyecto con:
 
-[ejemplo correcto](http://localhost:3000/usuarios?role=admin)
+`npm run start`
 
-[ejemplo alternativo](http://localhost:3000/usuarios?role=gerente)
-
-[ejemplo incorrecto](http://localhost:3000/usuarios?role=aaaaa)
-
+[Link de la página ps para que sea más fácil :b](https://socket-io-h9g4.onrender.com)
