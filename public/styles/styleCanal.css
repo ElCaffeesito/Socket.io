@@ -1,0 +1,41 @@
+html {
+    font-family: 'comic sans';
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+#messages {
+    height: 800px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.message {
+
+    margin: 4px;
+    border: 1px solid #000;
+    max-width: 150px;
+    min-height: 20px;
+    max-height: 250px;
+
+    label {
+        font-weight: 800;
+        font-size: large;
+        padding: 3px;
+    }
+
+    p {
+        padding: 3px;
+        padding-left: 15px;
+        margin: 0;
+    }
+}
+
+.left {
+    background-color: lightgreen;
+}
+
+.right {
+    background-color: aquamarine;
+}
